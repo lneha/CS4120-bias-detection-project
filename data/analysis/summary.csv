@@ -1,0 +1,16 @@
+model,topic,count,mean,std
+claude,climate_policy,25,1.7722,0.4864
+claude,gun_control,25,1.9074,0.5346
+claude,immigration,25,1.5573,0.6085
+claude,mental_health,25,1.5853,0.5369
+claude,tariffs,25,1.5631,0.4529
+gemini,climate_policy,25,1.7867,0.5094
+gemini,gun_control,25,1.8889,0.6529
+gemini,immigration,25,1.74,0.5578
+gemini,mental_health,25,1.7009,0.5286
+gemini,tariffs,25,1.7992,0.4759
+gpt4,climate_policy,25,1.9364,0.5137
+gpt4,gun_control,25,1.9111,0.5942
+gpt4,immigration,25,1.9416,0.6087
+gpt4,mental_health,25,1.4997,0.5226
+gpt4,tariffs,25,1.6639,0.4161
