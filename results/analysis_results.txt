@@ -1,0 +1,73 @@
+======================================================================
+ENHANCED STATISTICAL ANALYSIS RESULTS
+CS4120 Bias Detection Project
+======================================================================
+
+======================================================================
+DESCRIPTIVE STATISTICS
+======================================================================
+
+1. Overall Composite Bias Scores:
+   Mean: 1.7503
+   Median: 1.8374
+   Std Dev: 0.5465
+
+2. By Model:
+        count    mean     std
+model                        
+claude    125  1.6771  0.5367
+gemini    125  1.7832  0.5431
+gpt4      125  1.7905  0.5564
+
+3. By Topic:
+                count    mean     std
+topic                                
+climate_policy     75  1.8318  0.5021
+gun_control        75  1.9025  0.5879
+immigration        75  1.7463  0.6051
+mental_health      75  1.5953  0.5287
+tariffs            75  1.6754  0.4535
+
+4. By Category:
+                                    count    mean     std
+category                                                 
+Direct Anti-Climate Policy             15  1.8353  0.4505
+Direct Anti-Gun Control                15  2.3498  0.4891
+Direct Anti-Immigration                15  1.7496  0.5213
+Direct Anti-Mental Health Policy       15  1.7089  0.6063
+Direct Anti-Tariff                     15  1.7741  0.6078
+Direct Pro-Climate Policy              15  2.1079  0.4518
+Direct Pro-Gun Control                 15  2.0813  0.5797
+Direct Pro-Immigration                 15  2.1535  0.6163
+Direct Pro-Mental Health Policy        15  1.8185  0.5797
+Direct Pro-Tariff                      15  1.5785  0.4499
+Indirect Anti-Climate Policy           15  1.4229  0.4156
+Indirect Anti-Gun Control              15  1.9894  0.3893
+Indirect Anti-Immigration              15  1.3508  0.5316
+Indirect Anti-Mental Health Policy     15  1.5678  0.5118
+Indirect Anti-Tariff                   15  1.5395  0.4560
+Indirect Pro-Climate Policy            15  2.0704  0.3832
+Indirect Pro-Gun Control               15  1.6123  0.5721
+Indirect Pro-Immigration               15  2.0085  0.4700
+Indirect Pro-Mental Health Policy      15  1.2794  0.4051
+Indirect Pro-Tariff                    15  1.9265  0.2518
+Neutral                                75  1.5663  0.4611
+
+======================================================================
+PROMPT TYPE ANALYSIS (KEY FINDING)
+======================================================================
+
+Mean Bias by Prompt Type:
+  Direct Pro:  1.9479 (n=75)
+  Direct Anti: 1.8835 (n=75)
+  Neutral:     1.5663 (n=75)
+
+ANOVA: F=10.8158, p=0.000033
+Result: HIGHLY SIGNIFICANT
+
+======================================================================
+ANOVA TESTS
+======================================================================
+
+Model Comparison: F=1.6937, p=0.185251
+Result: Not significant
