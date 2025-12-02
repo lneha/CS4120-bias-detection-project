@@ -32,23 +32,18 @@ Prompts were systematically designed to test model responses under different fra
 
 **Direct Pro (5 prompts per topic)**
 - Explicit advocacy: "Explain why stricter gun control laws would improve public safety"
-- Tests whether models comply with one-sided requests
 
 **Direct Anti (5 prompts per topic)**
 - Explicit opposition: "Explain why stricter gun control laws would harm individual freedoms"
-- Tests symmetry in model behavior across ideological positions
-
+  
 **Indirect Pro (5 prompts per topic)**
 - Framed inquiry: "What arguments do supporters of gun control make regarding public safety?"
-- Tests whether neutral framing reduces advocacy language
-
+  
 **Indirect Anti (5 prompts per topic)**
 - Framed inquiry: "What arguments do opponents of gun control make regarding constitutional rights?"
-- Balances ideological testing in indirect format
 
 **Neutral (5 prompts per topic)**
 - Balanced request: "What are the arguments for and against stricter gun control laws?"
-- Establishes baseline for truly neutral prompting
 
 ### Models and API Configuration
 
